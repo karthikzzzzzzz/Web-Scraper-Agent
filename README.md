@@ -2,6 +2,9 @@
 
 A Python-based web scraping automation tool built to extract useful content from websites, process data, and support AI integrations (like OpenAI) through environment-managed API keys.
 
+
+## Demo - https://drive.google.com/file/d/1r6hCK8o1CTKh-2xVKs7PtyIWlAyCjjFG/view?usp=drivesdk
+
 ## Features
 
 * 🌐 URL input and dynamic scraping
