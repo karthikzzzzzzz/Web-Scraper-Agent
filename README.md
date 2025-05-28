@@ -63,7 +63,6 @@ Scraped data will be saved under an `output/` directory, as `.json` or `.csv` ba
 ## TODO
 
 * [ ] Add unit tests
-* [ ] Build Streamlit or FastAPI UI frontend
 * [ ] Add support for concurrent scraping
 
 ## Contributing
