@@ -10,3 +10,6 @@ langchain-mcp-adapters
 langgraph-checkpoint-redis
 langgraph
 langfuse
+google-search-results
+chromadb
+pypdf

@@ -7,12 +7,17 @@ from starlette.requests import Request
 from starlette.routing import Mount, Route
 from mcp.server import Server
 from serpapi import GoogleSearch
+import os
 import json
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 mcp = FastMCP("Agent")
 
 
-api_key= "O4KP6449G7DD66ZC"
+api_key= os.getenv("SEARCH_KEY")
 
 @mcp.tool()
 def get_stock_price(market: str) -> str:
@@ -49,7 +54,7 @@ def search_web(query: str) -> str:
     params = {
         "engine": "google",
         "q": query,
-        "api_key": "3a99dfe4c65588e212a12db407e909f4d9ba1cbd8c6af7c25a8402403b80cacd"
+        "api_key": os.getenv("SERPAPI_API_KEY"),
     }
     
     search = GoogleSearch(params)

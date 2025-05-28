@@ -1,8 +1,6 @@
 from pydantic import BaseModel
-from typing import Annotated, Optional
-from typing_extensions import TypedDict, List
-from datetime import datetime
-from uuid import UUID
+from typing import Annotated
+from typing_extensions import TypedDict
 from langgraph.graph.message import add_messages
 
 class Request(BaseModel):
@@ -10,3 +8,6 @@ class Request(BaseModel):
 
 class State(TypedDict):
     messages:Annotated[list,add_messages]
+
+class ChatRequest(BaseModel):
+    text: str
