@@ -5,6 +5,9 @@ A Python-based web scraping automation tool built to extract useful content from
 
 ## Demo - https://drive.google.com/file/d/1r6hCK8o1CTKh-2xVKs7PtyIWlAyCjjFG/view?usp=drivesdk
 
+<img width="678" alt="Screenshot 2025-05-29 at 1 26 32 AM" src="https://github.com/user-attachments/assets/89c04d5f-adfb-49fb-922a-8f0b0fca1c96" />
+
+
 ## Features
 
 * 🌐 URL input and dynamic scraping
