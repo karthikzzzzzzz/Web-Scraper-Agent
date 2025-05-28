@@ -1,0 +1,12 @@
+langchain-openai
+langchain
+fastapi
+mcp
+uvicorn
+langchain-community
+python-dotenv
+serpapi
+langchain-mcp-adapters
+langgraph-checkpoint-redis
+langgraph
+langfuse
