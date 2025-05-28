@@ -13,3 +13,4 @@ langfuse
 google-search-results
 chromadb
 pypdf
+elevenlabs
